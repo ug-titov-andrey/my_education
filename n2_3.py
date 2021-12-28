@@ -7,9 +7,6 @@ while True:
      if number_month == 'q': break
      try:
           number_season = int(number_month) - 1
-     except
-     try:
-          number_season = int(number_month)-1
           print(f'Сейчас {list_season[number_season]}')
      except:
           print('Введите правильный номер месяца\n ____________________________')
