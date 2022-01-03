@@ -13,7 +13,7 @@ def n1(x1, x2):
     try:
         return x1/x2
     except ZeroDivisionError:
-        print('В нашей математике на на ноль не делят. Попробуйте еще раз')
+        print('В нашей математике на на ноль не делят. Попробуйте еще раз ')
         raise ZeroDivisionError
 
 
