@@ -24,3 +24,4 @@ print(f'в цикле выводятся члены последовательн
 for int_value in range(numb_list):
     print(next(list_gen))
 
+

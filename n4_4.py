@@ -16,3 +16,4 @@ if __name__=='__main__':
     out_list=[value for  ind,value in enumerate(inp_list) if  value not in inp_list[:ind] + inp_list[(ind+1):] ]
     #a= [inp_list[:ind] + inp_list[(ind+1):] for  ind,value in enumerate(inp_list) ]
     print(f'Отсортированный список {out_list}')
+
