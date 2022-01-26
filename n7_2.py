@@ -69,7 +69,7 @@ class Suit(Clothes):
         except:
             raise My_exception('Рост должен быть числом')
         else:
-            if self._h <=0:  raise My_exception('Рост должен быть положительным числом   ')
+            if self._h <=0:  raise My_exception('Рост должен быть положительным числом    ')
     def get_material(self):
         return 2*self.h + 0.3
 
