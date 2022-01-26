@@ -73,7 +73,7 @@ if __name__=='__main__':
         print(C)
     except My_exception as e:
         print(e)
-    print('finish')
+    print('finish ')
 
 
 

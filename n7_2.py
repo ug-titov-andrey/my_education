@@ -81,7 +81,7 @@ if __name__ == '__main__':
         my_suit = Suit(180)
         my_suit.h = 178
         print(f'Рост {my_suit.name}а равен {my_suit.h}. На его пошив ушло {my_suit.get_material()} ткани')
-        print('finish')
+        print('finish ')
 
 
     except My_exception as x:

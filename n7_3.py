@@ -55,7 +55,7 @@ if __name__=='__main__':
         print(C.make_order(3))
     except My_exception as e:
         print(e)
-    print('finish')
+    print('finish ')
 
 
 
